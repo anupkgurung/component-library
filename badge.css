@@ -1,0 +1,72 @@
+/**** TO BE ADDED IN MAIN ******/
+:root {
+    --white : rgb(255,255,255,1);
+    --gray : rgb(128,128,128,1);
+}
+/*************************/
+
+.badge-container{
+    display: flex;
+    position: relative;
+}
+.badge {
+    background-color: var(--gray);
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.badge-container .avatar-xl ~ .badge-status {
+    height: 1rem;
+    width: 1rem;
+    margin-left: 8.6rem;
+    margin-top: 8rem;
+}
+.badge-container .avatar-lg ~ .badge-status{
+    margin-left: 6.8rem;
+    margin-top: 6.9rem;
+    height: .7rem;
+    width: .7rem;
+}
+.badge-container .avatar-md ~ .badge-status{
+    margin-left: 5.2rem;
+    margin-top: 5.12rem;
+    height: 0.6rem;
+    width: 0.6rem;
+}
+.badge-container .avatar-sm ~ .badge-status{
+    margin-left: 3.6rem;
+    margin-top: 3.5rem;
+    height: .5rem;
+    width: .5rem;
+}
+.badge-container .avatar-xsm ~ .badge-status{
+    margin-left: 1.9rem;
+    margin-top: 1.9rem;
+    height: .4rem;
+    width: .4rem;
+}
+
+.icon-badge {
+    color: var(--white);
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0.27rem;
+    line-height: 0.5rem;
+}
+.icon {
+    margin: 1rem;
+}
+.text-badge {
+    border-radius: 5px;
+    padding: .15rem;
+    margin-left: 2rem;
+    color: var(--white);
+    width: 3rem;
+}
