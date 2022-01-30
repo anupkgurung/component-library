@@ -1,0 +1,19 @@
+input:invalid:required {
+    border: 1px solid red;
+}
+input:invalid {
+    box-shadow: 0 0 1px 1px red;
+}
+input:valid:required {
+    background: url(./check.png);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+}
+input {
+    padding-left: 1rem;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
