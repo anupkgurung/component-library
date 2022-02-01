@@ -1,10 +1,3 @@
-/**** TO BE ADDED IN MAIN ******/
-:root {
-    --white : rgb(255,255,255,1);
-    --gray : rgb(128,128,128,1);
-}
-/*************************/
-
 .badge-container{
     display: flex;
     position: relative;
@@ -19,12 +12,13 @@
     align-items: center;
     font-size: 12px;
 }
-.badge-container .avatar-xl ~ .badge-status {
+ .badge-container .avatar-xl ~ .badge-status {
     height: 1rem;
     width: 1rem;
     margin-left: 8.6rem;
     margin-top: 8rem;
 }
+
 .badge-container .avatar-lg ~ .badge-status{
     margin-left: 6.8rem;
     margin-top: 6.9rem;
@@ -51,22 +45,24 @@
 }
 
 .icon-badge {
-    color: var(--white);
+    color: var(--text-clor);
     margin-left: 2rem;
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 0.27rem;
-    line-height: 0.5rem;
+    padding: 0.3rem .5rem .3rem .45rem;
+    line-height: 1rem;
+    width: .567rem;
 }
-.icon {
+.mr-icon {
     margin: 1rem;
 }
 .text-badge {
     border-radius: 5px;
     padding: .15rem;
     margin-left: 2rem;
-    color: var(--white);
+    color: var(--text-clor);
     width: 3rem;
+    line-height: 1rem;
 }

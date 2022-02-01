@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Meta UI is a component library">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="meta-ui.css">
+    <link rel="stylesheet" href="main.css">
     <title>Meta UI</title>
 </head>
+
 <body>
     <div>
-        <header class="flex-row"> 
-            <!-- <img src="./ml.png" alt=""> -->
-            <h2>Meta UI</h2>
-            <ul class="flex-row">
-                <li><a href="#">home</a></li>
-                <li><a href="#">Instalation</a></li>
-                <li><a href="#">Documentation</a></li>
-            </ul>
-            <ul class="flex-row">
-                <li>icons</li>
-            </ul>
+        <header class="header nav nav-box-shadow">
+            <div class="menu">
+                <span class="material-icons icon-btn">menu</span>
+                <h3 class="flex-row">Meta-UI</h3>
+            </div>
         </header>
         <div class="container">
             <div>
@@ -35,45 +31,68 @@
                         </div>
                     </nav>
                 </div>
-                <main>
-                    <aside>
-                        <ul>
-                            <li>
-                                <a href="">Input</a>
-                            </li>
-                            <li>
-                                
-                            </li>
-                        </ul>
-                    </aside>
-                    <section>
-                       
+                <main class="main-section">
+                    <section class="flex-row">
+                        <div class="flex-basis-50">
+                            <img class="responsive-fix-width" src="./lp0.svg" alt="">
+                        </div>
+                        <div class="flex-basis-50 flex-row flex-direction-col">
+                            <div class="flex-row">
+                                <span class="material-icons btn btn-primary btn-floating border-radius">code</span>
+                                <h3>Installation</h3>
+                            </div>
+                            <div class="code-snip">
+                                <iframe
+                                src="https://carbon.now.sh/embed/DvvMucr1gMS81Za5L5j9"
+                                style="width: 620px; height: 86px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+                            </div>
+                            <div>
+                                <section>
+                                    <p>The easiest way to set up componet for use in any web page.
+                                   All you need to do is include a single line of HTML.
+                                    Copy the above snippet and paste</p>
+                                </section>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary">
+                                    <a class="link-style-none" 
+                                        href="./documentation.html">
+                                        Read Installation Docs
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <div>
+                            <img src="./lp.svg" alt="">
+                        </div> -->
                     </section>
                 </main>
             </div>
-           
-        </div>
-       
-        <footer class="flex-row col-direction border">
-                <div class="border">
-                    <p><span>&lt;&gt;</span> Create by Anup Gurung <span>&lt;/&gt;</span> </p>
-                </div>
-                <div class="border flex-row">
-                    <a href="#">
-                        <img src="/twitter.ico" alt="twitter">
-                    </a>
-                    <a href="#">
-                        <img src="./github.ico" alt="github">
-                    </a>
-                    <a href="#">
-                        <img src="./instagram.ico" alt="github">
-                    </a>
-                    <a href="#">
-                        <img src="./linkedin.ico" alt="github">
-                    </a>
-                </div>
-        </footer>
 
+        </div>
+        <footer class="footer">
+            <div class="text-center font-bold">
+                <p><span>&lt;&gt;</span>Create by Anup Gurung<span>&lt;/&gt;</span> </p>
+            </div>
+            <div class="footer-social flex-row flex-row-center">
+                <a href="#">
+                    <img src="/twitter.ico" alt="twitter">
+                </a>
+                <a href="#">
+                    <img src="./github.ico" alt="github">
+                </a>
+                <!-- <a href="#">
+                    <img src="./instagram.ico" alt="github">
+                </a> -->
+                <a href="#">
+                    <img src="./linkedin.ico" alt="github">
+                </a>
+            </div>
+        </footer>
+        
     </div>
 </body>
+
 </html>

@@ -1,0 +1,28 @@
+/***** UTILITY *****/
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-direction-col {
+    flex-direction: column;
+}
+.flex-row-center {
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.mr-r {
+    margin-right: 0.3rem;
+}
+.icon:hover {
+    color: var(--black);
+    cursor: pointer;
+}
+.font-bold {
+    font-weight: 800;
+}
+.border-radius {
+    border-radius: var(--border-square);
+}
