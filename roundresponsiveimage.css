@@ -1,0 +1,20 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.responsive-lg {
+    max-width: 100%;
+    height: auto;
+}
+.responsive-fix-width {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.img-rounded {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.img-container {
+    display: flex;
+}
