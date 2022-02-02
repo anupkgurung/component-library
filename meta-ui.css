@@ -6,28 +6,49 @@ body {
     background-color: var(--royalblue-bg);
     height: 5rem;
     padding: .5rem;
+    grid-area: header;
+}
+.sidebar {
+    position: sticky;
+    top: 0rem;
+    /* height: 100%; */
+    width: 15rem;
+    padding: 1rem 0rem;
+    /* z-index: -1; */
+    grid-area: sidebar; 
+    overflow-y: auto;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
+    background-color: var(--white);
+}
+/* .navlist {
+    padding: 2rem;
+} */
+.main-section {
+    padding: 2rem 2rem;
+    grid-area: main;
+    overflow-x: auto;
 }
 .footer {
     bottom: 0;
     height: 5rem;
     background-color: var(--royalblue-bg);
-    padding: 0.5rem
+    padding: 0.5rem;
 }
 .footer-social > a >img{
     width: 1.5rem;
 }
-.main-section {
-    padding: 6rem;
-}
-.flex-basis-60 {
-    flex-basis: 60%;
-}
-.flex-basis-50{
-    flex-basis: 50%;
+.page-layout {
+    display: grid;
+    grid-template-columns: 20% 80%;
+     grid-template-areas: 
+        "header header"
+        "sidebar main";
+        position: relative;
 }
 .code-snip {
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid var(--border-blue);
+    border-radius: 5px;
     width: 100%;
     padding: 1rem 0;
     margin: 2rem 0;
@@ -35,20 +56,42 @@ body {
 .code-snip iframe{
     width: 100%;
 }
-.doc-bor {
-    border: 1px solid;
+.doc-border {
+    border: 2px solid var(--border-blue);
     margin: 1rem 0;
+    border-radius: 5px;
 }
 .highlight-text {
     color: var(--royalblue-bg);
 }
-.navbar {
-    background-color: burlywood;
-    width: 250px;
-    margin: 0;
-    height: 100vh;
-    position: relative;
+.hide-default {
+    display: none;
 }
-.navlist {
-    position: fixed;
+
+.list-style:hover {
+    background-color: var(--doc-hover-light);
+    color: var(--primary-blue);
+    border-radius: 5px;
+}
+.list-style > a {
+	text-decoration: none;
+	display: block;
+	color: inherit;
+    padding: 1rem 3rem;
+}
+
+@media only screen and (max-width:400px) {
+    .page-layout {
+        grid-template-columns: 20% 80%;
+        grid-template-areas: 
+           "header header"
+           "main main";
+           position: relative;
+    }
+    .sidebar {
+        visibility: hidden;
+    }
+    .hide-default {
+        display: inline-block;
+    }
 }

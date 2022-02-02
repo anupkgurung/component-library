@@ -13,9 +13,7 @@
 .text-center{
     text-align: center;
 }
-.mr-r {
-    margin-right: 0.3rem;
-}
+
 .icon:hover {
     color: var(--black);
     cursor: pointer;
@@ -25,4 +23,36 @@
 }
 .border-radius {
     border-radius: var(--border-square);
+}
+
+/******** margin *********/
+.m-1 {
+    margin: calc(1*var(--margin));
+}
+.mt-1 {
+    margin-top: calc(1*var(--margin));
+}
+.mt-2 {
+    margin-top: calc(2*var(--margin));
+}
+.mt-3 {
+    margin-top: calc(3*var(--margin));
+}
+.mt-4 {
+    margin-top: calc(4*var(--margin));
+}
+.mb-1 {
+    margin-bottom: calc(1*var(--margin));
+}
+.mb-2 {
+    margin-bottom: calc(2*var(--margin));
+}
+.mb-3 {
+    margin-bottom: calc(3*var(--margin));
+}
+.mb-4 {
+    margin-bottom: calc(4*var(--margin));
+}
+.mr-r {
+    margin-right: 0.3rem;
 }

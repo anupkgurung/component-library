@@ -14,64 +14,165 @@
 
 <body>
     <div>
-        <header class="header nav nav-box-shadow">
-            <div class="menu">
-                <span class="material-icons icon-btn">menu</span>
-                <h3 class="flex-row">Meta-UI</h3>
-            </div>
-        </header>
-        <div class="container">
-            <div class="flex-row flex-row-center">
-                <div class="sidebar flex-row flex-direction-col navbar">
+        <div class="page-layout">
+            <header class="header nav nav-box-shadow">
+                <div class="menu">
+                    <span class="material-icons icon-btn hide-default">menu</span>
+                    <h3 class="flex-row">Meta-UI</h3>
+                </div>
+            </header>
+            
+                <div class="sidebar">
+                    <div>Componenents</div>
                     <div class="navlist">
                         <ul>
-                            <li>
-                                <a href="#alert">Alert</a>
+                            <li class="m-1 list-style">
+                                <a class="" href="#alert">Alert</a>
                             </li>
-                            <li>
-                                <a href="">Avatar</a>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="">Avatar</a>
                             </li>
-                            <li>
-                                <a href="">Badge</a>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="">Badge</a>
                             </li>
-                            <li>
-                                <a href="">Button</a>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="#button">Button</a>
                             </li>
-                            <li>
-                                <a href="">Card</a>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="">Card</a>
                             </li>
-                            <li>
-                                <a href="">Image</a>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="">Input</a>
                             </li>
-                            <li>
-                                <a href="">Image</a>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="">Image</a>
                             </li>
-                            <li>
-                                <a href="">Typography</a>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="">Typography</a>
                             </li>
                         </ul>
                     </div>
-                    
                 </div>
-                <main class="main-section >
-                    <section id="alert">
-                        <h2>Alert</h2>
-                        <hr>
-                        <p>Provide contextual feedback messages for typical user actions
-                            with the handful of available and flexible alert messages.</p>
-                        <hr>
-                        <h4>Examples</h4>
-                        <p>Create simple primary alert with adding <span class="highlight-text">.alert</span>
-                            and <span class="highlight-text">.alert-primary</span> to your class</p>
-                        <div class="doc-bor">
-                            <div class="alert alert-primary">        
-                                <strong>Primary</strong> this is a primary alert.
-                            </div>
+            
+            <main class="main-section">
+                <!---------- ALERTS ---------------->
+                <section id="alert">
+                    <h2>Alert</h2>
+                    <hr>
+                    <p class="mt-4 mb-2">Provide contextual feedback messages for typical user actions
+                        with the handful of available and flexible alert messages.</p>
+                    <hr>
+                    <h4>Alert types</h4>
+                    <p class="mt-4 mb-2">Desired alert can be used by just including class name to the element
+                        <span class="highlight-text">.alert-success</span> for success and
+                        <span class="highlight-text">.alert-warning</span> for warning.
+                    </p>
+                    <div class="doc-border mt-4">
+                        <div class="alert flex-row alert-success">
+                            <span class="flex-row">
+                                <span class="material-icons mr-r">check</span>
+                                <span><strong>Success</strong> your action is successful.</span>
+                            </span>
+                            <span class="material-icons">close</span>
                         </div>
-                    </section>
-                </main>
-            </div>
+                        <div class="alert flex-row alert-info">
+                            <span class="flex-row">
+                                <span class="material-icons mr-r">info</span>
+                                <span><strong>Info</strong> your action has an info.</span>
+                            </span>
+                            <span class="material-icons">close</span>
+                        </div>
+                        <div class="alert flex-row alert-warning">
+                            <span class="flex-row">
+                                <span class="material-icons mr-r">warning</span>
+                                <span><strong>Warning</strong> your action has a warning.</span>
+                            </span>
+                            <span class="material-icons">close</span>
+                        </div>
+                        <div class="alert flex-row alert-danger">
+                            <span class="flex-row">
+                                <span class="material-icons mr-r">error</span>
+                                <span><strong>Danger</strong> your action has a danger.</span>
+                            </span>
+                            <span class="material-icons">close</span>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2843%2C9%2C9%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=136%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520flex-row%2520alert-success%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520mr-r%2522%253Echeck%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cstrong%253ESuccess%253C%252Fstrong%253E%2520your%2520action%2520is%2520successful.%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520flex-row%2520alert-info%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520mr-r%2522%253Einfo%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cstrong%253EInfo%253C%252Fstrong%253E%2520your%2520action%2520has%2520an%2520info.%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520flex-row%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520mr-r%2522%253Ewarning%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cstrong%253EWarning%253C%252Fstrong%253E%2520your%2520action%2520has%2520a%2520warning.%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520flex-row%2520alert-danger%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520mr-r%2522%253Eerror%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cstrong%253EDanger%253C%252Fstrong%253E%2520your%2520action%2520has%2520a%2520danger.%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
 
+                    <h4>Examples</h4>
+                    <p>Create simple primary alert with adding <span class="highlight-text">.alert</span>
+                        and <span class="highlight-text">.alert-primary</span> to your class</p>
+                    <div class="doc-border">
+                        <div class="alert alert-primary">
+                            <strong>Primary</strong> this is a primary alert.
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2843%2C9%2C9%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=136%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%253C%252Fstrong%253E%2520this%2520is%2520a%2520primary%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4>Alert align to center with icons</h4>
+                    <div class="alert-container doc-border">
+                        <div class="alert flex-row alert-success">
+                            <span class="flex-row">
+                                <span class="material-icons mr-r">check</span>
+                                <span><strong>Success</strong> your action is successful.</span>
+                            </span>
+                            <span class="material-icons">close</span>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2843%2C9%2C9%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=136%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520flex-row%2520alert-success%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520mr-r%2522%253Echeck%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cstrong%253ESuccess%253C%252Fstrong%253E%2520your%2520action%2520is%2520successful.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- ALERT END -------------->
+
+                <!---------------- BUTTON -------------->
+                <section id="button">
+                    <h2>Button</h2>
+                    <hr>
+                    <p class="mt-4 mb-2">Buttons are used for user action. You may use a tag or button element,
+                         you need to add a respective class in button or a tag.</p>
+                    <hr>
+                    <div>
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-secondary">Secondary</button>
+                        <a href="#" class="btn btn-link btn-primary">Link</a>        
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2843%2C9%2C9%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15px&lh=136%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-link%2520btn-primary%2522%253ELink%253C%252Fa%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+                </section>
+                <!---------------- BUTTON END -------------->
+
+                <!---------------- AVATAR ----------------->
+                <section id="avatar">
+                    <h2>Avatar</h2>
+                    <hr>
+                    <p class="mt-4 mb-2">Provide contextual feedback messages for typical user actions
+                        with the handful of available and flexible alert messages.</p>
+                    <hr>
+                </section>
+                <!---------------- AVATAR END -------------->
+            </main>
         </div>
 
         <footer class="footer">
