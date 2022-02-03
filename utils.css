@@ -24,6 +24,9 @@
 .border-radius {
     border-radius: var(--border-square);
 }
+.cursor {
+    cursor: pointer;
+}
 
 /******** margin *********/
 .m-1 {

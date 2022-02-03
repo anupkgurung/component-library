@@ -54,8 +54,12 @@
 hr {
     border: 1px solid transparent;
 }
+.btn:hover, .btn-icon:hover {
+    cursor: pointer;
+}
 .btn-primary-outline:hover ,
-.btn-secondary-outline:hover {
+.btn-secondary-outline:hover,
+.btn-link-outline:hover {
     background-color: var(--primary-blue);
     color: var(--text-color);
 }
@@ -63,4 +67,9 @@ hr {
     background-color: var(--text-color);
     color: var(--primary-blue);
     border: 1px solid var(--primary-blue);
+}
+.btn-secondary:hover {
+    background-color: var(--text-color);
+    color: var(--paleblue);
+    border: 1px solid var(--paleblue);
 }
