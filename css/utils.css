@@ -32,8 +32,8 @@
 .flex-basis-40 {
     flex-basis: calc(4*var(--flex-basis));
 }
-.flex-basis-50 {
-    flex-basis: calc(5*var(--flex-basis));
+.flex-basis-60 {
+    flex-basis: calc(6*var(--flex-basis));
 }
 
 /******** margin *********/
