@@ -26,6 +26,15 @@
 .cursor {
     cursor: pointer;
 }
+.flex-basis-10 {
+    flex-basis: calc(1*var(--flex-basis)); 
+}
+.flex-basis-40 {
+    flex-basis: calc(4*var(--flex-basis));
+}
+.flex-basis-50 {
+    flex-basis: calc(5*var(--flex-basis));
+}
 
 /******** margin *********/
 .m-1 {
