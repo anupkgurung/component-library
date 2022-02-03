@@ -7,8 +7,8 @@
     <meta name="description" content="Meta UI is a component library">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="meta-ui.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/meta-ui.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Meta UI</title>
 </head>
 
@@ -16,78 +16,61 @@
     <div>
         <header class="header nav nav-box-shadow">
             <div class="menu">
-                <span class="material-icons icon-btn">menu</span>
-                <h3 class="flex-row">Meta-UI</h3>
+                <span class="material-icons icon-btn hide-default">menu</span>
+                <h3 class="flex-row">Meta UI</h3>
             </div>
         </header>
-        <div class="container">
-            <div>
-                <div class="sidebar">
-                    <nav>
-                        <div>
-                            <ul>
-                                <li></li>
-                            </ul>
+        <div>
+            <main class="main-section">
+                <section class="flex-row">
+                    <div class="flex-basis-40">
+                        <img class="responsive-fix-width" src="./images/lp.svg" alt="image">
+                    </div>
+                    <div class="flex-basis-50 flex-row flex-direction-col">
+                        <div class="flex-row">
+                            <span class="material-icons btn btn-primary btn-floating border-radius">code</span>
+                            <h3>Installation</h3>
                         </div>
-                    </nav>
-                </div>
-                <main class="main-section">
-                    <section class="flex-row">
-                        <div class="flex-basis-50">
-                            <img class="responsive-fix-width" src="./lp0.svg" alt="">
-                        </div>
-                        <div class="flex-basis-50 flex-row flex-direction-col">
-                            <div class="flex-row">
-                                <span class="material-icons btn btn-primary btn-floating border-radius">code</span>
-                                <h3>Installation</h3>
-                            </div>
-                            <div class="code-snip">
-                                <iframe
-                                src="https://carbon.now.sh/embed/DvvMucr1gMS81Za5L5j9"
-                                style="width: 620px; height: 86px; border:0; transform: scale(1); overflow:hidden;"
+                        <div class="code-snip">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=119%25&si=false&es=2x&wm=false&code=%253Clink%2520href%253D%2522https%253A%252F%252Ffonts.googleapis.com%252Ficon%253Ffamily%253DMaterial%252BIcons%2522%2520rel%253D%2522stylesheet%2522%253E"
+                                style=" border:0; transform: scale(1); overflow:hidden;"
                                 sandbox="allow-scripts allow-same-origin">
-                              </iframe>
-                            </div>
-                            <div>
-                                <section>
-                                    <p>The easiest way to set up componet for use in any web page.
-                                   All you need to do is include a single line of HTML.
-                                    Copy the above snippet and paste</p>
-                                </section>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary">
-                                    <a class="link-style-none" 
-                                        href="./documentation.html">
-                                        Read Installation Docs
-                                    </a>
-                                </button>
-                            </div>
+                          </iframe>
                         </div>
-                        <!-- <div>
-                            <img src="./lp.svg" alt="">
-                        </div> -->
-                    </section>
-                </main>
-            </div>
-
+                        <div>
+                            <section>
+                                <p>The easiest way to set up componet for use in any web page.
+                                All you need to do is include a single line of HTML.
+                                Copy the above snippet and paste</p>
+                            </section>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary">
+                                <a class="link-style-none" 
+                                    href="./pages/documentation.html">
+                                    Read Installation Docs
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </main> 
         </div>
+
         <footer class="footer">
             <div class="text-center font-bold">
                 <p><span>&lt;&gt;</span>Create by Anup Gurung<span>&lt;/&gt;</span> </p>
             </div>
             <div class="footer-social flex-row flex-row-center">
                 <a href="#">
-                    <img src="/twitter.ico" alt="twitter">
+                    <img src="./images/twitter.ico" alt="twitter">
                 </a>
                 <a href="#">
-                    <img src="./github.ico" alt="github">
+                    <img src="./images/github.ico" alt="github">
                 </a>
-                <!-- <a href="#">
-                    <img src="./instagram.ico" alt="github">
-                </a> -->
                 <a href="#">
-                    <img src="./linkedin.ico" alt="github">
+                    <img src="./images/linkedin.ico" alt="linkedin">
                 </a>
             </div>
         </footer>
