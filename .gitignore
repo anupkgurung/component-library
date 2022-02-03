@@ -4,3 +4,5 @@
 /images/twitter.ico
 /pages/alert.html
 /pages/buttons.html
+*.ico
+*.svg
