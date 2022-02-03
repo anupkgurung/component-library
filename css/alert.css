@@ -1,0 +1,44 @@
+/***** ALERTS *****/
+
+/* container align alert to center with defined width */
+.alert-container {
+    display: flex;
+    justify-content: center;
+}
+.alert-container .alert{
+    width: 25rem;
+}
+.alert {
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.alert-success {
+    background-color: var( --green-bg);
+    color: var(--success-green);
+}
+.alert-info {
+    background-color: var( --yellow-bg);
+    color: var(--info-yellow);
+}
+.alert-warning {
+    background-color: var( --orange-bg);
+    color: var(--warning-orange);
+}
+.alert-danger {
+    background-color: var( --red-bg);
+    color: var(--error-red);
+}
+.alert-primary {
+    background-color: var( --blue-bg);
+    color: var(--primary-blue);
+}
+
+/***** MEDIA QUERY *****/
+@media only screen and (max-width: 400px) {
+    .alert {   
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

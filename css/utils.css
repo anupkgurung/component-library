@@ -1,0 +1,69 @@
+/***** UTILITY *****/
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-direction-col {
+    flex-direction: column;
+}
+.flex-row-center {
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.icon:hover {
+    color: var(--black);
+    cursor: pointer;
+}
+.font-bold {
+    font-weight: 800;
+}
+.border-radius {
+    border-radius: var(--border-square);
+}
+.cursor {
+    cursor: pointer;
+}
+.flex-basis-10 {
+    flex-basis: calc(1*var(--flex-basis)); 
+}
+.flex-basis-40 {
+    flex-basis: calc(4*var(--flex-basis));
+}
+.flex-basis-50 {
+    flex-basis: calc(5*var(--flex-basis));
+}
+
+/******** margin *********/
+.m-1 {
+    margin: calc(1*var(--margin));
+}
+.mt-1 {
+    margin-top: calc(1*var(--margin));
+}
+.mt-2 {
+    margin-top: calc(2*var(--margin));
+}
+.mt-3 {
+    margin-top: calc(3*var(--margin));
+}
+.mt-4 {
+    margin-top: calc(4*var(--margin));
+}
+.mb-1 {
+    margin-bottom: calc(1*var(--margin));
+}
+.mb-2 {
+    margin-bottom: calc(2*var(--margin));
+}
+.mb-3 {
+    margin-bottom: calc(3*var(--margin));
+}
+.mb-4 {
+    margin-bottom: calc(4*var(--margin));
+}
+.mr-r {
+    margin-right: 0.3rem;
+}
