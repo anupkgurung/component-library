@@ -108,10 +108,13 @@ body {
            "main main";
            position: relative;
     }
-    .sidebar {
-        visibility: hidden;
+    .sidebar, .flex-basis-40 {
+        display: none;
     }
     .hide-default {
         display: inline-block;
+    }
+    .flex-basis-50 {
+        flex-basis: 100% !important;
     }
 }

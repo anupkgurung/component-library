@@ -1,0 +1,22 @@
+input:invalid:required {
+    border: 1px solid red;
+}
+input:invalid {
+    box-shadow: 0 0 1px 1px red;
+}
+input:valid:required {
+    background: url(../images/check.png);
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: .5rem 0.4rem;
+}
+input {
+    padding-left: 1.8rem;
+    height: calc(8*var(--height));
+    width: calc(60*var(--width));
+    border-radius: 5px;
+    border: 1px solid var(--primary-blue);
+}
+.input-container {
+    display: flex;
+}
