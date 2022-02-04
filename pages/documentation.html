@@ -41,10 +41,10 @@
                                 <a class="link-style-none" href="">Card</a>
                             </li>
                             <li class="m-1 list-style">
-                                <a class="link-style-none" href="">Input</a>
+                                <a class="link-style-none" href="#input">Input</a>
                             </li>
                             <li class="m-1 list-style">
-                                <a class="link-style-none" href="">Image</a>
+                                <a class="link-style-none" href="#image">Image</a>
                             </li>
                             <li class="m-1 list-style">
                                 <a class="link-style-none" href="">Typography</a>
@@ -357,6 +357,109 @@
                     </div> 
                 </section>
                 <!---------------- BADGE END --------------->
+                <!---------------- IMAGES ------------------>
+                <section id="image">
+                    <h2>Image</h2>
+                    <hr>
+                    <p class="mt-4 mb-2">Images in Bootstrap are made responsive with <span class="highlight-text">.responsive</span>. 
+                       max-width: 100%; and height: auto; are applied to the image so that it scales with the parent element.
+                       Responsive image with fix width can also be used by adding <span class="highlight-text">.responsive-fix-width</span> class.
+                    </p>
+                    <hr>
+                    <div class="img-container code-snip">
+                        <div class="m-1">
+                            <img  class="responsive" src="https://bit.ly/3H8IByu" alt="img">
+                        </div>
+                        <div class="m-1">
+                            <img class="responsive-fix-width" src="https://bit.ly/3H8IByu" alt="img">
+                        </div>
+                        <div class="m-1">
+                            <img class="responsive-fix-width img-rounded" src="https://bit.ly/3H8IByu" alt="img">
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520%2520class%253D%2522responsive%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252F3H8IByu%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522responsive-fix-width%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252F3H8IByu%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522responsive-fix-width%2520img-rounded%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252F3H8IByu%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- IMAGES END -------------->
+                <!---------------- INPUT ------------------->
+                <section id="input">
+                    <h2>Input</h2>
+                    <hr>
+                    <p class="mt-4 mb-2">The input HTML element is used to create interactive controls 
+                        for web-based forms in order to accept data from the user;
+                        a wide variety of types of input data and control widgets are available.
+                    </p>
+                    <hr>
+                    <h4>Example</h4>
+                    <p class="mt-4 mb-2">Input can be of different types as <span class="highlight-text">type</span>
+                        can be mentioned for <span class="highlight-text">text</span>,
+                        <span class="highlight-text">number</span> or <span class="highlight-text">email</span>.
+                    </p>
+                    <div class="flex-row flex-row-center code-snip">
+                        <div class="m-3">
+                            <input type="text" name="text" class="input" placeholder="Enter your name" />
+                        </div>
+                        <div class="m-3">
+                            <input type="number" name="number" placeholder="Enter contact" />
+                        </div>
+                        <div class="m-3">
+                            <input type="email" name="email" placeholder="Enter email" />
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522m-3%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520text%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522m-3%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522number%2522%2520name%253D%2522number%2522%2520placeholder%253D%2522Enter%2520number%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522m-3%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email%2522%2520placeholder%253D%2522Enter%2520email%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h5>Required Input</h5>
+                    <p class="mt-4 mb-2"> input can be made a mandate field by just adding <span class="highlight-text">required</span>
+                        for validating empty field.
+                    </p>
+                    <div class="flex-row flex-row-center code-snip">
+                        <div class="m-3">
+                            <input type="text" name="text" class="input" placeholder="requried" required />
+                        </div class="m-3">
+                        <div>
+                            <input type="password" placeholder="requried"  required />
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522text%2522%2520class%253D%2522input%2522%2520required%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%253Cinput%2520type%253D%2522password%2522%2520required%2520%252F%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h5>Disabled and read only Input</h5>
+                    <p class="mt-4 mb-2">The <span class="highlight-text">readonly</span> attribute can be set to keep a user 
+                        from changing the value until some other conditions have been met.
+                        <span class="highlight-text">disabled</span> attribute is used to disable input field in order for user 
+                        to not be able to modifiy it.
+                    </p>
+                    <div class="code-snip flex-row flex-row-center">
+                        <div class="m-3">
+                            <input type="text" name="text" class="input" value="This field is disabled" disabled />
+                        </div>
+                        <div class="m-3">
+                            <input type="text" value="This read only field" readonly />
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522text%2522%2520class%253D%2522input%2522%2520value%253D%2522This%2520field%2520is%2520disabled%2522%2520disabled%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520value%253D%2522This%2520read%2520only%2520field%2522%2520readonly%2520%252F%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- INPUT END------------------->
             </main>
         </div>
 

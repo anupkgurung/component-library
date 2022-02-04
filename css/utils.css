@@ -32,6 +32,9 @@
 .flex-basis-40 {
     flex-basis: calc(4*var(--flex-basis));
 }
+.flex-basis-50 {
+    flex-basis: calc(5*var(--flex-basis));
+}
 .flex-basis-60 {
     flex-basis: calc(6*var(--flex-basis));
 }
@@ -39,6 +42,18 @@
 /******** margin *********/
 .m-1 {
     margin: calc(1*var(--margin));
+}
+.m-2 {
+    margin: calc(2*var(--margin));
+}
+.m-3 {
+    margin: calc(3*var(--margin));
+}
+.m-4 {
+    margin: calc(4*var(--margin));
+}
+.m-5 {
+    margin: calc(5*var(--margin));
 }
 .mt-1 {
     margin-top: calc(1*var(--margin));
@@ -65,5 +80,8 @@
     margin-bottom: calc(4*var(--margin));
 }
 .mr-r {
+    margin-right: 0.3rem;
+}
+.mr-l{
     margin-right: 0.3rem;
 }
