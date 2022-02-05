@@ -1,0 +1,109 @@
+.card-container {
+    border-radius: 5px;
+    background-color: var(--text-color);
+    width: 23rem;
+    height: 24.3rem;
+    box-shadow: 0px 2px 5px 1px palevioletred;
+}
+.card-container--overlay {
+    width: 23rem;
+    height: 20rem;
+}
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+.card-img-container {
+    height: 12.8rem;
+}
+.card-img-container > img, 
+.card-img-horizontal > img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.card-title {
+    height: 5rem;
+    margin-left: 1rem;
+    padding-top: 0;
+}
+.title-overlay {
+    position: absolute;
+    z-index: 1;
+    margin-top: 8.5rem;
+    color: white;
+}
+.card-desc {
+    margin: 0rem 1rem 0rem 1rem;
+}
+.card-desc--overlay {
+    margin-top: 1.4rem;
+}
+.card-header--horizontal {
+    flex-direction: row;
+    gap: 5%;
+}
+.card-footer {
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    font-size: 14px;
+    height: 4rem;
+}
+.card-footer > div {
+    padding: 5px;
+    margin: 5px;
+}
+.footer-icons {
+    color: grey;
+}
+.footer-btn {
+    color: blueviolet;
+    font-weight: 700;
+}
+
+.footer-btn:hover , .footer-icons:hover, .card-header:hover {
+    background-color: var(--card-hover-light);
+    cursor: pointer; 
+}
+.footer-icons:hover {
+    border-radius: 50%;
+}
+.card-container--verticle{
+    width: 18rem;
+    height: 20rem;
+}
+.card-verticle-footer {
+    gap: 0%;
+    font-size: 13px;
+}
+.card-footer--height-horizontal {
+    height: 2.5rem;
+}
+.card-container--horizontal {
+    height: 10rem;
+    width: 23.5rem;
+}
+.dismis-card-icon {
+    padding: .4rem;
+    z-index: 1;
+    transition: all .48s;
+}
+.dismis-card-icon:hover {
+    padding: 1.5rem;
+    cursor: pointer;
+    color: var(--primary-blue);
+}
+#icon-dismiss {
+    transition-timing-function: linear;
+}
+.has-dismiss {
+    z-index: -1;
+    position: absolute; 
+    margin: 3rem;
+    padding: .2rem;
+    background-color: var(--paleblue);
+    color: var(--text-color);
+    border-radius: 2px ;
+}
