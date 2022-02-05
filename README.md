@@ -14,7 +14,4 @@ Include CSS file mentioned in [installation section](https://metaui.netlify.app/
 
 Drop your love by [starring](https://metaui.netlify.app) this repo.
 
-[![Facebook](https://img.shields.io/static/v1.svg?label=follow&message=@smileguptaaa&color=grey&logo=facebook&style=flat&logoColor=white&colorA=blue)](https://www.facebook.com/anup.gurung.9862)
-[![Instagram](https://img.shields.io/static/v1.svg?label=follow&message=@smileguptaaa&color=grey&logo=instagram&style=flat&logoColor=white&colorA=blue)](https://www.instagram.com/aannupkmr/) 
-[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@smilegupta&color=grey&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/anup-gurung-70b78788/) 
-[![Twitter](https://img.shields.io/static/v1.svg?label=connect&message=@smileguptaaa&color=grey&logo=twitter&style=flat&logoColor=white&colorA=blue)](https://twitter.com/anupkgurung)
+
