@@ -7,7 +7,7 @@ body {
     height: 5rem;
     padding: .5rem;
     grid-area: header;
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     width: 100%;
     top: 0;
@@ -37,6 +37,7 @@ body {
     height: 5rem;
     background-color: var(--royalblue-bg);
     padding: 0.5rem;
+    z-index: 2;
 }
 .footer-social > a >img{
     width: 1.5rem;
@@ -100,7 +101,7 @@ body {
     padding: 1rem 3rem;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
     .page-layout {
         grid-template-columns: 20% 80%;
         grid-template-areas: 
@@ -108,13 +109,35 @@ body {
            "main main";
            position: relative;
     }
-    .sidebar, .flex-basis-40 {
+    .flex-basis-40 {
         display: none;
     }
+    /* .sidebar, */
     .hide-default {
         display: inline-block;
+    }
+    .sidebar {
+        width: 0;;
     }
     .flex-basis-50 {
         flex-basis: 100% !important;
     }
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu span {
+        font-size: 36px;
+        margin-top: -5px
+    }
+    .icon-btn-focus:focus {
+        z-index: 1;
+        width: 15rem !important;
+        transition: width .50s;
+    }
+    #sidebar {
+        transition-timing-function: linear;
+    }
+    
 }
