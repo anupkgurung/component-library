@@ -38,8 +38,16 @@
 .flex-basis-60 {
     flex-basis: calc(6*var(--flex-basis));
 }
-
+.position-abs {
+    position: absolute;
+}
+.position-rel {
+    position: relative;
+}
 /******** margin *********/
+.m-0 {
+    margin: 0;
+}
 .m-1 {
     margin: calc(1*var(--margin));
 }
@@ -83,5 +91,23 @@
     margin-right: 0.3rem;
 }
 .mr-l{
-    margin-right: 0.3rem;
+    margin-left: 2rem;
+}
+
+.img--no-radius {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.img-radius {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.font-sm {
+    font-size: smaller;
+}
+.font-xsm {
+    font-size: small;
+}
+.z-1{
+   z-index: 1; 
 }

@@ -38,7 +38,7 @@
                                 <a class="link-style-none" href="#button">Button</a>
                             </li>
                             <li class="m-1 list-style">
-                                <a class="link-style-none" href="">Card</a>
+                                <a class="link-style-none" href="#card">Card</a>
                             </li>
                             <li class="m-1 list-style">
                                 <a class="link-style-none" href="#input">Input</a>
@@ -460,6 +460,182 @@
                     </div>
                 </section>
                 <!---------------- INPUT END------------------->
+                <!---------------- CARD ----------------------->
+                <section id="card">
+                    <h2>Cards</h2>
+                    <hr>
+                    <p class="mt-4 mb-2">card is a flexible and extensible content container. 
+                        It includes options for headers and footers,
+                        a wide variety of content, contextual background colors, and powerful display options..
+                    </p>
+                    <hr>
+                    <h5>Text Overlay</h5>
+                    <p class="mt-4 mb-2">
+                        Card with text overlay can be added using <span class="highlight-text">.title-overlay</span> class.
+                    </p>
+                    <div class="code-snip flex-row flex-direction-col">
+                        <div class='card-container card-container--overlay mr-l'>
+                            <div class="card-header">
+                                <div class="card-img-container position-rel">
+                                    <img class="responsive img-radius position-abs" src="../images/anna.jpg" alt="image">
+                                </div>
+                                <div class="card-title title-overlay">
+                                    <h5>Mount Annapurna</h5>
+                                    <p>located in Nepal</p>
+                                </div>
+                                <div class="card-desc card-desc--overlay font-xsm">
+                                    Highest mountain in the world.
+                                    peaks of 8000m above the sea level.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-read footer-btn">READ</div>
+                                <div class='card-bookmark footer-btn'>BOOKMARK</div>
+                                <div class="card-favourite footer-icons">
+                                    <span class="material-icons">favorite_border</span>
+                                </div>
+                                <div class="card-share footer-icons">
+                                    <span class="material-icons">share</span>
+                                </div>
+                                <div class="card-more footer-icons">
+                                    <span class="material-icons">more_vert</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27card-container%2520card-container--overlay%2520mr-l%27%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img-container%2520position-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522responsive%2520img-radius%2520position-abs%2522%2520src%253D%2522..%252Fimages%252Fanna.jpg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520title-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EMount%2520Annapurna%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Elocated%2520in%2520Nepal%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2520card-desc--overlay%2520font-xsm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Highest%2520mountain%2520in%2520the%2520world.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520peaks%2520of%25208000m%2520above%2520the%2520sea%2520level.%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-read%2520footer-btn%2522%253EREAD%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27card-bookmark%2520footer-btn%27%253EBOOKMARK%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-favourite%2520footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_border%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-share%2520footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshare%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-more%2520footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Emore_vert%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h5>Text only card</h5>
+                    <p class="mt-4 mb-2"> Text only card excludes images
+                        Card with text overlay can be added using <span class="highlight-text">.title-overlay</span> class.
+                    </p>
+                    <div class="code-snip flex-row flex-direction-col">
+                        <div class='card-container card-container--horizontal mr-l'>
+                            <div class="card-header">
+                                <div class="m-2">
+                                    <h4>Makalu Mountain</h4>
+                                    <p class="font-sm mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting 
+                                        industry. Lorem Ipsum has been the industry's standard dummy 
+                                        text ever since the 1500s.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-footer card-footer--height-horizontal">
+                                <div class="footer-btn">READ</div>
+                                <div class='footer-btn'>BOOKMARK</div>
+                                <div class="footer-icons">
+                                    <span class="material-icons">favorite_border</span>
+                                </div>
+                                <div class="footer-icons">
+                                    <span class="material-icons">share</span>
+                                </div>
+                                <div class="footer-icons">
+                                    <span class="material-icons">more_vert</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27card-container%2520card-container--horizontal%2520mr-l%27%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522m-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EMakalu%2520Mountain%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-sm%2520mt-3%2522%253ELorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520industry%27s%2520standard%2520dummy%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520text%2520ever%2520since%2520the%25201500s.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520card-footer--height-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer-btn%2522%253EREAD%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27footer-btn%27%253EBOOKMARK%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_border%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshare%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Emore_vert%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+
+                    <h5>Dismiss Card</h5>
+                    <p class="mt-4 mb-2">
+                        Dismiss card can be added using <span class="highlight-text">.dismis-card-icon</span> class.
+                    </p>
+                    <div class="code-snip">
+                        <div class="flex-row flex-direction-col position-rel">
+                            <div id="icon-dismiss" class="flex-row flex-row-center dismis-card-icon">
+                                <span class="material-icons">highlight_off</span>
+                            </div>
+                            <div class="has-dismiss font-xsm"><span>Remove</span></div>
+                            <div class='card-container card-container--verticle'>
+                                <div class="card-header">
+                                    <div class="card-img-container position-rel">
+                                        <img class="responsive img-radius position-abs" src="../images/anna.jpg" alt="image">
+                                    </div>
+                                    <div class="card-title title-overlay">
+                                        <h5>Mount Annapurna</h5>
+                                        <p>located in Nepal</p>
+                                    </div>
+                                    <div class="card-desc card-desc--overlay font-sm">
+                                        Highest mountain in the world.
+                                        peaks of 8000m above the sea level.
+                                    </div>
+                                </div>
+                                <div class="card-footer card-verticle-footer">
+                                    <div class="card-read footer-btn">READ</div>
+                                    <div class='card-bookmark footer-btn'>BOOKMARK</div>
+                                    <div class="card-favourite footer-icons">
+                                        <span class="material-icons">favorite_border</span>
+                                    </div>
+                                    <div class="card-share footer-icons">
+                                        <span class="material-icons">share</span>
+                                    </div>
+                                    <div class="card-more footer-icons">
+                                        <span class="material-icons">more_vert</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-row%2520flex-direction-col%2520position-rel%2522%253E%250A%2520%2520%253Cdiv%2520id%253D%2522icon-dismiss%2522%2520class%253D%2522flex-row%2520flex-row-center%2520dismis-card-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Ehighlight_off%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522has-dismiss%2520font-xsm%2522%253E%253Cspan%253ERemove%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%27card-container%2520card-container--verticle%27%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img-container%2520position-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522responsive%2520img-radius%2520position-abs%2522%2520src%253D%2522..%252Fimages%252Fanna.jpg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520title-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EMount%2520Annapurna%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Elocated%2520in%2520Nepal%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2520card-desc--overlay%2520font-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Highest%2520mountain%2520in%2520the%2520world.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520peaks%2520of%25208000m%2520above%2520the%2520sea%2520level.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520card-verticle-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-read%2520footer-btn%2522%253EREAD%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27card-bookmark%2520footer-btn%27%253EBOOKMARK%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-favourite%2520footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_border%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-share%2520footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshare%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-more%2520footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Emore_vert%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+
+                    <h5>Card with Badge</h5>
+                    <p class="mt-4 mb-2">Bade can added to any card using <span>.badge</span> 
+                        and <span>.text-badge</span>
+                    </p>
+                    <div class="code-snip flex-row flex-direction-col">
+                        <div class='card-container card-container--verticle'>
+                            <span class="badge text-badge z-1 m-0">NEW</span>                         
+                            <div class="card-header">                                
+                                <div class="card-img-container position-rel">
+                                    <img class="responsive img-radius position-abs" src="../images/newbadge.jpg" alt="image">
+                                </div>
+                                <div class="card-desc card-desc--overlay font-xsm">
+                                    A crampon is a traction device that
+                                    is attached to footwear to improve mobility on snow.
+                                </div>
+                            </div>
+                            <div class="card-footer card-verticle-footer">
+                                <div class="footer-btn">BUY</div>
+                                <div class='footer-btn'>WISHLIST</div>
+                                <div class="footer-icons">
+                                    <span class="material-icons">favorite_border</span>
+                                </div>
+                                <div class="footer-icons">
+                                    <span class="material-icons">share</span>
+                                </div>
+                                <div class="footer-icons">
+                                    <span class="material-icons">more_vert</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27card-container%2520card-container--verticle%27%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520text-badge%2520z-1%2520m-0%2522%253ENEW%253C%252Fspan%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img-container%2520position-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522responsive%2520img-radius%2520position-abs%2522%2520src%253D%2522..%252Fimages%252Fnewbadge.jpg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2520card-desc--overlay%2520font-xsm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520crampon%2520is%2520a%2520traction%2520device%2520that%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520is%2520attached%2520to%2520footwear%2520to%2520improve%2520mobility%2520on%2520snow.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2520card-verticle-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer-btn%2522%253EBUY%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%27footer-btn%27%253EWISHLIST%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_border%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshare%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Emore_vert%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- CARD END ------------------->
             </main>
         </div>
 
