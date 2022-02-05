@@ -62,11 +62,8 @@
     color: blueviolet;
     font-weight: 700;
 }
-.card-header:hover {
-    background-color: var(--card-hover-light);
-    cursor: pointer;
-}
-.footer-btn:hover , .footer-icons:hover {
+
+.footer-btn:hover , .footer-icons:hover, .card-header:hover {
     background-color: var(--card-hover-light);
     cursor: pointer; 
 }
