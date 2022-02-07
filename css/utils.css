@@ -111,3 +111,10 @@
 .z-1{
    z-index: 1; 
 }
+.link-style-none {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
