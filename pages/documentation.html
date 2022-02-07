@@ -52,6 +52,9 @@
                             <li class="m-1 list-style">
                                 <a class="link-style-none" href="#list">List</a>
                             </li>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="#modal">Modal</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -715,7 +718,7 @@
                 <!---------------- List ------------------->
                 <section id="list">
                     <h2>List</h2>
-                    <p>Lists can be used for displaying a series of contents.</p>
+                    <p class="mt-4 mb-2">Lists can be used for displaying a series of contents.</p>
                     <h6>Examples</h6>
                     <div class="code-snip flex-row-center">
                         <ul class="list-style-circle">
@@ -732,7 +735,7 @@
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
-                    <p>Stacked List can be usedfull for notification page.</p>
+                    <p class="mt-4 mb-2">Stacked List can be usedfull for notification page.</p>
                     <div class="code-snip flex-row-center">
                         <div class="list-container">
                             <ul>
@@ -764,6 +767,35 @@
                     </div>
                 </section>
                 <!---------------- List End------------------->
+                <!---------------- Modal --------------------->
+                <section id="modal">
+                    <h2>Modal</h2>
+                    <p class="mt-4 mb-2">Modals are built with HTML, CSS, and JavaScript. They’re positioned over everything else in the
+                         document.
+                    </p>
+                    <div class="code-snip text-center">
+                        <button id="openModal" class="btn btn-primary ">Open Modal</button>
+                        <div class="modal-container flex-column-center">
+                            <div class="modal hide-default">
+                                <div class="modal-header">
+                                    <section class="text-left">Modal Head</section>
+                                </div>
+                                <div class="modal-body">
+                                    <section>                                       
+                                        <img src="../images/modal.jpg" alt="modal">
+                                    </section>
+                                </div>
+                               <div class="modal-footer text-right">
+                                   <section>
+                                    <button class="btn btn-secondary-outline close">Close</button>
+                                   </section>
+                               </div>                                
+                            </div>
+                            <div class="modal-backdrop hide-default"></div>
+                        </div>
+                    </div>
+                </section>
+                <!---------------- Modal End ----------------->
             </main>
         </div>
 
