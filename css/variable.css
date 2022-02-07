@@ -32,4 +32,11 @@
     --height : 0.25rem;
     --width : 0.25rem;
     --flex-basis : 10%;
+
+    --xl-size: 40px;
+    --lg-size: 32px;
+    --md-size: 24px;
+    --sm-size: 16px;
+
+    --regular : 400;
 }

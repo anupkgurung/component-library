@@ -1,0 +1,28 @@
+.list-inline {
+    display: inline;
+}
+.list-style-circle {
+    list-style: circle;
+}
+ul {
+    top: .2rem;
+}
+.list-container ul {
+    margin-top: .4rem;
+}
+.list-container {
+    background-color: var(--white);
+    border-radius: 5px;
+    width: 8rem;
+    height: 7rem;
+    box-shadow: 0rem .3rem .4rem black;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+}
+.list-item:hover {
+    cursor: pointer;
+    background-color: var(--doc-hover-light);
+    border-radius: 5px;
+}
