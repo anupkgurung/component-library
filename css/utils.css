@@ -135,6 +135,22 @@
 .mr-l{
     margin-left: 2rem;
 }
+/******** PADDING ***********/
+.pd-1 {
+    padding: calc(1*var(--padding));
+}
+.pd-2 {
+    padding: calc(2*var(--padding));
+}
+.pd-3 {
+    padding: calc(3*var(--padding));
+}
+.pd-4 {
+    padding: calc(4*var(--padding));
+}
+.pd-5 {
+    padding: calc(5*var(--padding));
+}
 
 .img--no-radius {
     border-top-left-radius: 0px;
