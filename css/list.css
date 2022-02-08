@@ -26,3 +26,12 @@ ul {
     background-color: var(--doc-hover-light);
     border-radius: 5px;
 }
+.list-item-float {
+    float: right;
+}
+.list-inline a:hover {
+    background-color: var(--doc-hover-light);
+}
+.list-inline a:focus {
+    background-color: var(--doc-hover-light);
+}
