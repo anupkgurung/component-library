@@ -13,13 +13,15 @@
     --doc-hover-light : #0000ff24;
     --card-hover-light : #dfede8ed;
     --dark-grey: rgb(100, 100, 100);
+    --yellow : #FFD600;
     /* --primary-blue : rgb(165,38,207,1); */
-
+    --black-haze : #f2f3f326;
+    --rating-star : "\2605";
     --black : #000000;
     --text-color : #ffffff;
     --white : #ffffff;
     --gray : #808080;
-
+    --heliotrope-blue :#bb86fc;
     --paleblue : #6c757d;
     --primary-blue : #007bff;
 

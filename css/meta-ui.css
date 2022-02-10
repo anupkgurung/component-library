@@ -136,8 +136,14 @@ body {
         width: 15rem !important;
         transition: width .50s;
     }
-    #sidebar {
-        transition-timing-function: linear;
+    .icon-btn-focus {
+        z-index: 1;
+        width: 15rem !important;
+        transition: width .50s;
     }
-    
+    .icon-btn-blur {
+        z-index: 1;
+        width: 0rem !important;
+        transition: width .50s;
+    }    
 }
