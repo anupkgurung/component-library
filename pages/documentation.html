@@ -58,6 +58,12 @@
                             <li class="m-1 list-style">
                                 <a class="link-style-none" href="#navigation">Navigation</a>
                             </li>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="#snackbar">Snackbar</a>
+                            </li>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="#rating">Rating</a>
+                            </li>
                             
                         </ul>
                     </div>
@@ -820,6 +826,100 @@
                     </div>
                 </section>
                 <!---------------- Navigation End ------------>
+                <!---------------- SNACKBAR ------------------>
+                <section id="snackbar">
+                    <h2>Snackbar</h2>
+                    <p class="mt-4 mb-2">Snackbars provide brief notifications. The component is also known as a toast.
+                    </p>
+                    <h6>Baseline snackbar</h6>
+                    <div class="code-snip">
+                        <div class="main-container">                            
+                            <div class="snackbar">
+                                <section class="msg-row">                
+                                    <p>Can't send photo. Retry in 5 seconds.</p>
+                                </section>
+                                <section class="btn-row">
+                                    <span>RETRY</span>
+                                    <span class="material-icons">close</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522msg-row%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522btn-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ERETRY%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h6>LEADING snackbar</h6>                   
+                    <div class="code-snip">
+                        <div class="main-container leading">                            
+                            <div class="snackbar snackbar-leading">
+                                <section class="msg-row">                
+                                    <p>Your photo has been archived..</p>
+                                </section>
+                                <section class="btn-row">
+                                    <span>UNDO</span>
+                                    <span class="material-icons">close</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-container%2520leading%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar%2520snackbar-leading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522msg-row%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EYour%2520photo%2520has%2520been%2520archived..%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522btn-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EUNDO%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+                    <h6>STACKED snackbar</h6>       
+                    <div class="code-snip">
+                        <div class="main-container stacked">                            
+                            <div class="snackbar-stacked">
+                                <section class="msg-row">                
+                                    <p>This item already has the label "travel". You can add a new label.</p>
+                                </section>
+                                <section class="btn-row">
+                                    <span>ADD A NEW LABEL</span>
+                                    <span class="material-icons">close</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-container%2520stacked%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-stacked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522msg-row%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520item%2520already%2520has%2520the%2520label%2520%2522travel%2522.%2520You%2520can%2520add%2520a%2520new%2520label.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522btn-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EADD%2520A%2520NEW%2520LABEL%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- SNACKBAR End -------------->
+                <!---------------- RATING -------------------->
+                <section id="rating">
+                    <h2>Rating</h2>
+                    <p class="mt-4 mb-2">Ratings provide insight regarding others' opinions and experiences, 
+                        and can allow the user to submit a rating of their own.
+                    </p>
+                    <div class="code-snip">
+                        <div class="rating"> 
+                            <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                            <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                            <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label> 
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522rating%2522%253E%2520%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25225%2522%2520id%253D%25225%2522%253E%253Clabel%2520for%253D%25225%2522%253E%25E2%2598%2586%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25224%2522%2520id%253D%25224%2522%253E%253Clabel%2520for%253D%25224%2522%253E%25E2%2598%2586%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25223%2522%2520id%253D%25223%2522%253E%253Clabel%2520for%253D%25223%2522%253E%25E2%2598%2586%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25222%2522%2520id%253D%25222%2522%253E%253Clabel%2520for%253D%25222%2522%253E%25E2%2598%2586%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25221%2522%2520id%253D%25221%2522%253E%253Clabel%2520for%253D%25221%2522%253E%25E2%2598%2586%253C%252Flabel%253E%2520%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- RATING END ---------------->
             </main>
         </div>
 
