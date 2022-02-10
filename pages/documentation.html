@@ -45,10 +45,26 @@
                             </li>
                             <li class="m-1 list-style">
                                 <a class="link-style-none" href="#image">Image</a>
+                            </li> 
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="#typography">Typography</a>
                             </li>
                             <li class="m-1 list-style">
-                                <a class="link-style-none" href="">Typography</a>
+                                <a class="link-style-none" href="#list">List</a>
                             </li>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="#modal">Modal</a>
+                            </li>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="#navigation">Navigation</a>
+                            </li>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="#snackbar">Snackbar</a>
+                            </li>
+                            <li class="m-1 list-style">
+                                <a class="link-style-none" href="#rating">Rating</a>
+                            </li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -638,19 +654,272 @@
                 <!---------------- CARD END ------------------->
                 <!---------------- Typography ------------------->
                 <section id="typography">
-                    <h2>Cards</h2>
+                    <h2>Text Utilities</h2>
                     <hr>
-                    <p class="mt-4 mb-2">card is a flexible and extensible content container. 
-                        It includes options for headers and footers,
-                        a wide variety of content, contextual background colors, and powerful display options..
-                    </p>
+                    <p class="mt-4 mb-2">Typography expresses hierarchy.</p>
                     <hr>
-                    <h5>Text Overlay</h5>
-                    <p class="mt-4 mb-2">
-                        Card with text overlay can be added using <span class="highlight-text">.title-overlay</span> class.
-                    </p>
+                    <h5>Heading</h5>
+                    <div class="code-snip flex-row flex-wrap flex-direction-col">
+                        <h1>Heading 1</h1>
+                        <h2>Heading 1</h2>
+                        <h3>Heading 1</h3>
+                        <h4>Heading 1</h4>
+                        <h5>Heading 1</h5>
+                        <h6>Heading 1</h6>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Ch1%253EHeading%25201%253C%252Fh1%253E%250A%253Ch2%253EHeading%25201%253C%252Fh2%253E%250A%253Ch3%253EHeading%25201%253C%252Fh3%253E%250A%253Ch4%253EHeading%25201%253C%252Fh4%253E%250A%253Ch5%253EHeading%25201%253C%252Fh5%253E%250A%253Ch6%253EHeading%25201%253C%252Fh6%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h5>Text Sizes</h5>
+                    <p class="mt-4 mb-2">Tex sizes can range from small,medium, large and extra large using their respective classes.</p>
+                    <div class="code-snip flex-row flex-wrap flex-direction-col">
+                        <p class="text-sm m-1">This is smaller text</p>
+                        <p class="text-md m-1">This is medium text</p>
+                        <p class="text-lg m-1">This is large text</p>
+                        <p class="text-xl m-1">This is extra large text</p>
+                    </div>
+                    <h5>Font weight</h5>
+                    <p class="mt-4 mb-2">Font weight can vaey from light, regular and bold.</p>
+                    <div class="code-snip flex-row flex-wrap flex-direction-col">
+                        <p class="text-ligh">This is light text</p>
+                        <p class="text-bold">This is bold text</p>
+                        <p class="text-reqgular">This is regular text</p>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-sm%2520m-1%2522%253EThis%2520is%2520smaller%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-md%2520m-1%2522%253EThis%2520is%2520medium%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-lg%2520m-1%2522%253EThis%2520is%2520large%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-xl%2520m-1%2522%253EThis%2520is%2520extra%2520large%2520text%253C%252Fp%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h5>Grey text</h5>
+                    <p class="mt-4 mb-2">text can also be styled with italic or bold class.</p>
+                    <div class="code-snip flex-row flex-wrap flex-direction-col">
+                        <p class="text-grey">Grey text</p>
+                        <p class="text-grey text-italic">Grey itallic text</p>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-grey%2522%253EGrey%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-grey%2520text-italic%2522%253EGrey%2520itallic%2520text%253C%252Fp%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h5>Text Alignment</h5>
+                    <p class="mt-4 mb-2">Text alignment can be left, right and center.</p>
+                    <div class="code-snip ">
+                        <p class="text-center m-1">Text Align Center</p>
+                        <p class="text-right m-1">Text Align Right</p>
+                        <p class="text-left m-1">Text Align Left</p>                       
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-center%2520m-1%2522%253EText%2520Align%2520Center%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-right%2520m-1%2522%253EText%2520Align%2520Right%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-left%2520m-1%2522%253EText%2520Align%2520Left%253C%252Fp%253E%2520%2520%2520%2520"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
                 </section>
                 <!---------------- Typography End------------------->
+                <!---------------- List ------------------->
+                <section id="list">
+                    <h2>List</h2>
+                    <p class="mt-4 mb-2">Lists can be used for displaying a series of contents.</p>
+                    <h6>Examples</h6>
+                    <div class="code-snip flex-row-center">
+                        <ul class="list-style-circle">
+                            <li>First Item</li>
+                            <li>Second Item</li>
+                            <li>Third Item</li>
+                            <li>Fourth Item</li>
+                        </ul>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-style-circle%2522%253E%250A%2520%2520%2520%2520%253Cli%253EFirst%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253ESecond%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EThird%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EFourth%2520Item%253C%252Fli%253E%250A%253C%252Ful%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <p class="mt-4 mb-2">Stacked List can be usedfull for notification page.</p>
+                    <div class="code-snip flex-row-center">
+                        <div class="list-container">
+                            <ul>
+                                <li class="list-item ml-2" tabindex="1">
+                                    <span class="material-icons mr-2">inbox</span>
+                                    Inbox
+                                </li>
+                                <li class="list-item ml-2" tabindex="1">
+                                    <span class="material-icons mr-2">star</span>
+                                    Star
+                                </li>
+                                <li class="list-item ml-2" tabindex="1">
+                                    <span class="material-icons mr-2">send</span>
+                                    Sent
+                                </li>
+                                <li class="list-item ml-2" tabindex="1">
+                                    <span class="material-icons mr-2">drafts</span>
+                                    Drafts
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520ml-2%2522%2520tabindex%253D%25221%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520mr-2%2522%253Einbox%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Inbox%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520ml-2%2522%2520tabindex%253D%25221%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520mr-2%2522%253Estar%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Star%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520ml-2%2522%2520tabindex%253D%25221%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520mr-2%2522%253Esend%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Sent%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520ml-2%2522%2520tabindex%253D%25221%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520mr-2%2522%253Edrafts%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Drafts%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- List End------------------->
+                <!---------------- Modal --------------------->
+                <section id="modal">
+                    <h2>Modal</h2>
+                    <p class="mt-4 mb-2">Modals are built with HTML, CSS, and JavaScript. They’re positioned over everything else in the
+                         document.
+                    </p>
+                    <div class="code-snip text-center">
+                        <button id="openModal" class="btn btn-primary ">Open Modal</button>
+                        <div class="modal-container flex-column-center">
+                            <div class="modal hide-default">
+                                <div class="modal-header">
+                                    <section class="text-left">Modal Head</section>
+                                </div>
+                                <div class="modal-body">
+                                    <section>                                       
+                                        <img src="../images/modal.jpg" alt="modal">
+                                    </section>
+                                </div>
+                               <div class="modal-footer text-right">
+                                   <section>
+                                    <button class="btn btn-secondary-outline close">Close</button>
+                                   </section>
+                               </div>                                
+                            </div>
+                            <div class="modal-backdrop hide-default"></div>
+                        </div>
+                    </div>
+                </section>
+                <!---------------- Modal End ----------------->
+                <!---------------- Navigation----------------->
+                <section id="navigation">
+                    <h2>Navigation</h2>
+                    <p class="mt-4 mb-2">Having easy-to-use navigation is important for any web site.
+                    </p>
+                    <div class="code-snip">
+                        <ul class="nav menu pd-4 m-2">
+                            <li class="list-inline"><a class="link-style-none pd-3 m-1" tabindex="1">Home</a></li>
+                            <li class="list-inline"><a class="link-style-none pd-3 m-1" tabindex="1">Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522nav%2520menu%2520pd-4%2520m-2%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-inline%2522%253E%253Ca%2520class%253D%2522link-style-none%2520pd-3%2520m-1%2522%2520tabindex%253D%25221%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-inline%2522%253E%253Ca%2520class%253D%2522link-style-none%2520pd-3%2520m-1%2522%2520tabindex%253D%25221%2522%253EDesign%253C%252Fa%253E%253C%252Fli%253E%250A%253C%252Ful%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- Navigation End ------------>
+                <!---------------- SNACKBAR ------------------>
+                <section id="snackbar">
+                    <h2>Snackbar</h2>
+                    <p class="mt-4 mb-2">Snackbars provide brief notifications. The component is also known as a toast.
+                    </p>
+                    <h6>Baseline snackbar</h6>
+                    <div class="code-snip">
+                        <div class="main-container">                            
+                            <div class="snackbar">
+                                <section class="msg-row">                
+                                    <p>Can't send photo. Retry in 5 seconds.</p>
+                                </section>
+                                <section class="btn-row">
+                                    <span>RETRY</span>
+                                    <span class="material-icons">close</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522msg-row%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522btn-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ERETRY%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <h6>LEADING snackbar</h6>                   
+                    <div class="code-snip">
+                        <div class="main-container leading">                            
+                            <div class="snackbar snackbar-leading">
+                                <section class="msg-row">                
+                                    <p>Your photo has been archived..</p>
+                                </section>
+                                <section class="btn-row">
+                                    <span>UNDO</span>
+                                    <span class="material-icons">close</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-container%2520leading%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar%2520snackbar-leading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522msg-row%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EYour%2520photo%2520has%2520been%2520archived..%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522btn-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EUNDO%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+                    <h6>STACKED snackbar</h6>       
+                    <div class="code-snip">
+                        <div class="main-container stacked">                            
+                            <div class="snackbar-stacked">
+                                <section class="msg-row">                
+                                    <p>This item already has the label "travel". You can add a new label.</p>
+                                </section>
+                                <section class="btn-row">
+                                    <span>ADD A NEW LABEL</span>
+                                    <span class="material-icons">close</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-container%2520stacked%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-stacked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522msg-row%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520item%2520already%2520has%2520the%2520label%2520%2522travel%2522.%2520You%2520can%2520add%2520a%2520new%2520label.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522btn-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EADD%2520A%2520NEW%2520LABEL%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- SNACKBAR End -------------->
+                <!---------------- RATING -------------------->
+                <section id="rating">
+                    <h2>Rating</h2>
+                    <p class="mt-4 mb-2">Ratings provide insight regarding others' opinions and experiences, 
+                        and can allow the user to submit a rating of their own.
+                    </p>
+                    <div class="code-snip">
+                        <div class="rating"> 
+                            <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> 
+                            <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                            <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
+                            <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                            <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label> 
+                        </div>
+                    </div>
+                    <div class="code-snip">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=137%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522rating%2522%253E%2520%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25225%2522%2520id%253D%25225%2522%253E%253Clabel%2520for%253D%25225%2522%253E%25E2%2598%2586%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25224%2522%2520id%253D%25224%2522%253E%253Clabel%2520for%253D%25224%2522%253E%25E2%2598%2586%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25223%2522%2520id%253D%25223%2522%253E%253Clabel%2520for%253D%25223%2522%253E%25E2%2598%2586%253C%252Flabel%253E%2520%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25222%2522%2520id%253D%25222%2522%253E%253Clabel%2520for%253D%25222%2522%253E%25E2%2598%2586%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520value%253D%25221%2522%2520id%253D%25221%2522%253E%253Clabel%2520for%253D%25221%2522%253E%25E2%2598%2586%253C%252Flabel%253E%2520%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+                <!---------------- RATING END ---------------->
             </main>
         </div>
 

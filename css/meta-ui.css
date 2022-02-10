@@ -100,7 +100,16 @@ body {
 	color: inherit;
     padding: 1rem 3rem;
 }
-
+.icon-btn-focus {
+    z-index: 1;
+    width: 15rem !important;
+    transition: width .50s;
+}
+.icon-btn-blur {
+    z-index: 1;
+    width: 0rem !important;
+    transition: width .50s;
+}
 @media only screen and (max-width:650px) {
     .page-layout {
         grid-template-columns: 20% 80%;
@@ -140,6 +149,7 @@ body {
         z-index: 1;
         width: 15rem !important;
         transition: width .50s;
+
     }
     .icon-btn-blur {
         z-index: 1;

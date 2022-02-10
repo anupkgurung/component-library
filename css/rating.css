@@ -1,0 +1,32 @@
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: var(--lg-size);
+    font-weight: 300;
+    color: var(--yellow);
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: var(--rating-star);
+    position: absolute;
+    opacity: 0
+}
+
+/* ~ => General Sibling Selector */
+.rating>label:hover,
+.rating>label:hover~label::before
+ {
+    opacity: 1 !important
+}
+.rating>input:checked~label::before {
+    opacity: 1
+}
+.rating>input {
+    display: none;
+}

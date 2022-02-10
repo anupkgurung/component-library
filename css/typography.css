@@ -26,3 +26,49 @@ p {
     font-size: 1rem;
     line-height: 1.125rem;
 }
+.text-grey {
+    color: var(--dark-grey);
+}
+.text-sm {
+    font-size: var(--sm-size);
+}
+.text-md {
+    font-size: var(--md-size);
+}
+.text-lg {
+    font-size: var(--lg-size);
+}
+.text-xl {
+    font-size: var(--xl-size);
+}
+.text-light {
+    font-weight: lighter;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-regular {
+    font-weight: var(--regular);
+}
+.text-italic {
+    font-style: italic;
+}
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-no-underline {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: end;
+}
+
+.text-left {
+    text-align: start;
+}

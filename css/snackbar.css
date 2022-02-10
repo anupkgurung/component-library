@@ -1,0 +1,56 @@
+.main-container {
+    background-color: #f5efef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10rem;
+}
+.snackbar , .snackbar-stacked{
+    display: flex;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 26.25rem;
+    max-width: 100%;
+    background-color: rgb(51, 51, 51);
+    color: whitesmoke;    
+    align-items: center;
+    height: 3.125rem;
+}
+.leading {
+    align-items: flex-start;
+}
+.stacked {
+    align-items: flex-start;
+}
+.snackbar-stacked {
+    flex-direction: column;
+    height: 8rem;
+}
+.snackbar-stacked p {
+    font-size: 0.85rem !important;
+}
+.msg-row p {
+    margin: 1rem;
+    font-weight: 400;
+}
+.btn-row {
+    display: flex;
+    margin-left: auto;
+    margin-right: 1rem;
+    color: var(--heliotrope-blue);
+}
+.snackbar > span {
+    padding: .8rem;
+}
+.btn-row .material-icons {
+    font-size: 19px !important;
+}
+.material-icons:hover{
+    background-color: var(--black-haze);
+    cursor: pointer;
+    border-radius: 50%;
+}
+span:hover {
+    background-color: var(--black-haze);
+    cursor: pointer;
+}
