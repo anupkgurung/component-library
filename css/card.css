@@ -3,7 +3,7 @@
     background-color: var(--text-color);
     width: 23rem;
     height: 24.3rem;
-    box-shadow: 0px 2px 5px 1px palevioletred;
+    box-shadow: 0px 2px 5px 1px var(--card-shadow);
 }
 .card-container--overlay {
     width: 23rem;
