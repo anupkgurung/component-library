@@ -29,7 +29,7 @@
 }
 .btn-secondary-outline {
     background-color: transparent;
-    color: var(--primary-blue);
+    color: var(--paleblue);
     border-color: var(--paleblue);
 }
 .btn-link-outline {
@@ -58,9 +58,12 @@ hr {
     cursor: pointer;
 }
 .btn-primary-outline:hover ,
-.btn-secondary-outline:hover,
 .btn-link-outline:hover {
     background-color: var(--primary-blue);
+    color: var(--text-color);
+}
+.btn-secondary-outline:hover {
+    background-color: var(--paleblue);
     color: var(--text-color);
 }
 .btn-primary:hover {
