@@ -308,7 +308,7 @@
                         Like <span class="highlight-text">.badge-status</span> with <span class="highlight-text">.avatar</span>
                     </p>
                     <hr>
-                    <div class="code-snip avatar-container">
+                    <div class="code-snip avatar-container flex-wrap">
                         <div class="badge-container">
                             <div class="avatar avatar-xl">
                                 <img class="img-avatar responsive-img" src="../images/avatar.png" alt="avatar">
@@ -418,7 +418,7 @@
                         can be mentioned for <span class="highlight-text">text</span>,
                         <span class="highlight-text">number</span> or <span class="highlight-text">email</span>.
                     </p>
-                    <div class="flex-row flex-row-center code-snip">
+                    <div class="flex-row flex-row-center code-snip flex-wrap">
                         <div class="m-3">
                             <input type="text" name="text" class="input" placeholder="Enter your name" />
                         </div>
@@ -440,7 +440,7 @@
                     <p class="mt-4 mb-2"> input can be made a mandate field by just adding <span class="highlight-text">required</span>
                         for validating empty field.
                     </p>
-                    <div class="flex-row flex-row-center code-snip">
+                    <div class="flex-row flex-row-center code-snip flex-wrap">
                         <div class="m-3">
                             <input type="text" name="text" class="input" placeholder="requried" required />
                         </div class="m-3">
@@ -461,7 +461,7 @@
                         <span class="highlight-text">disabled</span> attribute is used to disable input field in order for user 
                         to not be able to modifiy it.
                     </p>
-                    <div class="code-snip flex-row flex-row-center">
+                    <div class="code-snip flex-row flex-row-center flex-wrap">
                         <div class="m-3">
                             <input type="text" name="text" class="input" value="This field is disabled" disabled />
                         </div>
@@ -491,8 +491,8 @@
                     <p class="mt-4 mb-2">
                         Card with text overlay can be added using <span class="highlight-text">.title-overlay</span> class.
                     </p>
-                    <div class="code-snip flex-row flex-direction-col">
-                        <div class='card-container card-container--overlay mr-l'>
+                    <div class="code-snip flex-row-center">
+                        <div class='card-container card-container--overlay flex-row flex-direction-col'>
                             <div class="card-header">
                                 <div class="card-img-container position-rel">
                                     <img class="responsive img-radius position-abs" src="../images/anna.jpg" alt="image">
@@ -532,8 +532,8 @@
                     <p class="mt-4 mb-2"> Text only card excludes images
                         Card with text overlay can be added using <span class="highlight-text">.title-overlay</span> class.
                     </p>
-                    <div class="code-snip flex-row flex-direction-col">
-                        <div class='card-container card-container--horizontal mr-l'>
+                    <div class="code-snip flex-row-center">
+                        <div class='card-container card-container--horizontal flex-row-center flex-direction-col'>
                             <div class="card-header">
                                 <div class="m-2">
                                     <h4>Makalu Mountain</h4>
@@ -794,7 +794,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <section>                                       
-                                        <img src="../images/modal.jpg" alt="modal">
+                                        <img class="responsive" src="../images/modal.jpg" alt="modal">
                                     </section>
                                 </div>
                                <div class="modal-footer text-right">
@@ -814,7 +814,7 @@
                     <p class="mt-4 mb-2">Having easy-to-use navigation is important for any web site.
                     </p>
                     <div class="code-snip">
-                        <ul class="nav menu pd-4 m-2">
+                        <ul class="nav menu pd-4">
                             <li class="list-inline"><a class="link-style-none pd-3 m-1" tabindex="1">Home</a></li>
                             <li class="list-inline"><a class="link-style-none pd-3 m-1" tabindex="1">Design</a></li>
                         </ul>
