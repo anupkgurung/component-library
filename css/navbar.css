@@ -34,3 +34,15 @@
 .nav-box-shadow {
     box-shadow: -1px 1px 15px -3px black;
 }
+.sub-menu-list {
+    display:flex;
+    flex-direction: column;   
+    background-color: var(--royalblue-bg);
+    color: var(--text-color);
+    width: 10rem;
+    transition: width .5s;
+   
+}
+.sub-menu-link {
+    padding: 0rem 2rem 0rem 2rem
+}

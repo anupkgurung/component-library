@@ -5,6 +5,12 @@ const openModal = document.querySelector("#openModal");
 const modalBackdrop = document.querySelector(".modal-backdrop");
 const modalContainer = document.querySelector(".modal-container");
 const closeModal = document.querySelector(".close");
+const navbar = document.querySelector(".sub-menu");
+const toggleMenubar = document.querySelector(".sub-menu-bar");
+
+toggleMenubar.addEventListener("click", function(){
+    navbar.classList.toggle("hide-default");
+});																																										
 
 menuIcon.addEventListener("click",function(){
     sidebar.classList.add("icon-btn-focus");
