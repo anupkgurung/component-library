@@ -2,4 +2,4 @@ Component Added
 
 -- Slider
 
--- Navigatino sub menu with Drawer
+-- Navigation sub menu with Drawer
