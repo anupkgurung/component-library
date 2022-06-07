@@ -27,6 +27,7 @@ Include CSS file mentioned in [installation section](https://metaui.netlify.app/
 - [Snackbar](https://metaui.netlify.app/pages/documentation.html#snackbar)
 - [Rating](https://metaui.netlify.app/pages/documentation.html#rating)
 - [Grids](https://metaui.netlify.app/pages/documentation.html#grid)
+- [Slider](https://metaui.netlify.app/pages/documentation.html#slider)
 
 Drop your love by [starring](https://metaui.netlify.app) this repo.
 
